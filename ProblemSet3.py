@@ -200,7 +200,18 @@ problem3_4("July",17, 2016)
 """
 #%%
 def problem3_4(mon, day, year):
-    """ Takes date such as July 17, 2016 and write it as 7/17/2016 """
+    """
+    Takes date such as July 17, 2016 and write it as 7/17/2016
+
+    >>> problem3_4("July", 17, 2016)    # doctest: +SKIP
+    7/17/2016
+
+    >>> problem3_4("September", 23, 2058)    # doctest: +SKIP
+    9/23/2058
+
+    >>> problem3_4("February", 28, 1469)    # doctest: +SKIP
+    2/28/1469
+    """
     pass # replace this pass (a do-nothing) statement with your code
 
 #%%
