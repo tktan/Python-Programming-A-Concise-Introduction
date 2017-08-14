@@ -52,6 +52,42 @@ str1 = "Rumplestilskin"             # string
 
 #%%
 def problem3_2(collection):
+    """
+    >>> nlis = [23, 64, 23, 46, 12, 24]
+    >>> problem3_2(nlis)    # doctest: +SKIP
+    23
+    64
+    23
+    46
+    12
+    24
+
+    >>> atup = ("c", "e", "a", "d", "b")
+    >>> problem3_2(atup)    # doctest: +SKIP
+    c
+    e
+    a
+    d
+    b
+
+    >>> str1 = "Rumplestilskin"
+    >>> problem3_2(str1)    # doctest: +SKIP
+    R
+    u
+    m
+    p
+    l
+    e
+    s
+    t
+    i
+    l
+    s
+    k
+    i
+    n
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
 #%%
 """
