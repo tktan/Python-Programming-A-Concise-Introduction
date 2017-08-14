@@ -27,6 +27,13 @@ does all of the following, each on a separate line:
 """
 #%%
 def problem2_1():
+    """
+    >>> problem2_1()    # doctest: +SKIP
+    23
+    [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    20 21 22 23 24 25 26 27 28 29 \
+
+    """
     pass # replace this pass (a do-nothing) statement with your code
 
 
