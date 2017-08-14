@@ -237,6 +237,32 @@ Also be careful to make the phrases exactly as shown for the auto-grader.
 """
 #%%
 def problem1_5(age):
+    """
+    >>> problem1_5(-1)    # doctest: +SKIP
+    Have a glass of milk.
+
+    >>> problem1_5(0)    # doctest: +SKIP
+    Have a glass of milk.
+
+    >>> problem1_5(6)    # doctest: +SKIP
+    Have a glass of milk.
+
+    >>> problem1_5(7)    # doctest: +SKIP
+    Have a coke.
+
+    >>> problem1_5(14)    # doctest: +SKIP
+    Have a coke.
+
+    >>> problem1_5(20)    # doctest: +SKIP
+    Have a coke.
+
+    >>> problem1_5(21)    # doctest: +SKIP
+    Have a martini.
+
+    >>> problem1_5(99)    # doctest: +SKIP
+    Have a martini.
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
 
 
