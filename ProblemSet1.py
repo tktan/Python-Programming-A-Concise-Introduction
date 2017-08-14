@@ -158,6 +158,23 @@ but be sure this isn't in the submitted function.
 """
 #%%
 def problem1_3(n):
+    """
+    >>> problem1_3(6)    # doctest: +SKIP
+    21
+
+    >>> problem1_3(-23)    # doctest: +SKIP
+    0
+
+    >>> problem1_3(12)    # doctest: +SKIP
+    78
+
+    >>> problem1_3(0)    # doctest: +SKIP
+    0
+
+    >>> problem1_3(1)    # doctest: +SKIP
+    1
+    """
+
     my_sum = 0
     pass # replace this pass (a do-nothing) statement with your code
 
