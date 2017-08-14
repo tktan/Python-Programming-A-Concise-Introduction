@@ -97,6 +97,11 @@ are expected to do and shows how the auto-grader expects it to look.
 """
 #%%
 def problem1_1():
+    """
+    >>> problem1_1()    # doctest: +SKIP
+    Problem Set 1
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
 
 
