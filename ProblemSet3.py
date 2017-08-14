@@ -159,8 +159,20 @@ exactly. Everything you need to do this is covered in the lectures. ***
 """
 #%%
 def problem3_3(month, day, year):
-    """ Takes date of form mm/dd/yyyy and writes it in form June 17, 2016
-        Example3_3: problem3_3(6, 17, 2016) gives June 17, 2016 """
+    """
+    Takes date of form mm/dd/yyyy and writes it in form June 17, 2016
+    Example3_3: problem3_3(6, 17, 2016) gives June 17, 2016
+
+    >>> problem3_3(6, 17, 2016)    # doctest: +SKIP
+    June 17, 2016
+
+    >>> problem3_3(9, 23, 2058)    # doctest: +SKIP
+    September 23, 2058
+
+    >>> problem3_3(2, 28, 1469)    # doctest: +SKIP
+    February 28, 1469
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
 
 #%%
