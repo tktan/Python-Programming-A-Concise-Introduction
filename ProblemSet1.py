@@ -288,4 +288,7 @@ The area of a trapezoid with bases 10.0 and 11.0 and height 12.0 is 126.0
 
 """
 
-
+if __name__ == "__main__":
+    import doctest
+    optionflags = doctest.ELLIPSIS | doctest.REPORT_NDIFF | doctest.FAIL_FAST
+    doctest.testmod(optionflags=optionflags)

@@ -119,3 +119,7 @@ Choice: s
 
 """
 
+if __name__ == "__main__":
+    import doctest
+    optionflags = doctest.ELLIPSIS | doctest.REPORT_NDIFF | doctest.FAIL_FAST
+    doctest.testmod(optionflags=optionflags)

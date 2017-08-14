@@ -225,3 +225,8 @@ def problem3_7(csv_pricefile, flower):
     pass # replace this pass (a do-nothing) statement with your code
 
 #%%
+
+if __name__ == "__main__":
+    import doctest
+    optionflags = doctest.ELLIPSIS | doctest.REPORT_NDIFF | doctest.FAIL_FAST
+    doctest.testmod(optionflags=optionflags)
