@@ -27,6 +27,16 @@ There are 141 letters in the file.
 """
 #%%
 def problem3_1(txtfilename):
+    """
+    >>> problem3_1("HumptyDumpty.txt")    # doctest: +SKIP
+    Humpty Dumpty sat on a wall,
+    Humpty Dumpty had a great fall.
+    All the king's horses and all the king's men
+    Couldn't put Humpty together again.
+    <BLANKLINE>
+    There are 141 letters in the file.
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
 
 #%%
