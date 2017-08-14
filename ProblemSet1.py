@@ -114,6 +114,24 @@ numbers x and y on separate lines, the sum printing first.
 """
 #%%
 def problem1_2(x,y):
+    """
+    >>> problem1_2(3, 5)    # doctest: +SKIP
+    8
+    15
+
+    >>> problem1_2(34, -10)    # doctest: +SKIP
+    24
+    -340
+
+    >>> problem1_2(-14, -9)    # doctest: +SKIP
+    -23
+    126
+
+    >>> problem1_2(-42, 25)    # doctest: +SKIP
+    -17
+    -1050
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
 
 
