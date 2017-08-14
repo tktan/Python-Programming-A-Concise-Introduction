@@ -233,7 +233,18 @@ Below is the start of the program including the dictionary.
 #%%
 
 def problem3_5(name):
-    """ Looks up the phone number of the person whose name is name """
+    """
+    Looks up the phone number of the person whose name is name.
+
+    >>> problem3_5("james")    # doctest: +SKIP
+    (212) 567-8149
+
+    >>> problem3_5("beverly")    # doctest: +SKIP
+    (901) 454-3241
+
+    >>> problem3_5("abbie")    # doctest: +SKIP
+    (860) 123-4535
+    """
 
     phone_numbers = {"abbie":"(860) 123-4535", "beverly":"(901) 454-3241", \
                       "james": "(212) 567-8149", "thomas": "(795) 342-9145"}
