@@ -201,6 +201,20 @@ just one space or the auto-grader may not give you credit.
 """
 #%%
 def problem1_4(miles):
+    """
+    >>> problem1_4(5)    # doctest: +SKIP
+    There are 26400 feet in 5 miles.
+
+    >>> problem1_4(0)    # doctest: +SKIP
+    There are 0 feet in 0 miles.
+
+    >>> problem1_4(-30)    # doctest: +SKIP
+    There are -158400 feet in -30 miles.
+
+    >>> problem1_4(49)    # doctest: +SKIP
+    There are 258720 feet in 49 miles.
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
 
 
