@@ -302,6 +302,17 @@ Solution starter:
 """
 #%%
 def problem3_7(csv_pricefile, flower):
+    """
+    >>> problem3_7("flowers.csv", "alyssum")    # doctest: +SKIP
+    3.95
+
+    >>> problem3_7("flowers.csv", "begonia")    # doctest: +SKIP
+    5.95
+
+    >>> problem3_7("flowers.csv", "sunflower")    # doctest: +SKIP
+    5.95
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
 
 #%%
