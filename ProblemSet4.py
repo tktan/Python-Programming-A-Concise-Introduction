@@ -46,8 +46,32 @@ for i in range(0,25):
     numList.append(round(100*random.random(),1))
 #%%
 def problem4_2(ran_list):
-    """ Compute the mean and standard deviation of a list of floats """
+    """
+    Compute the mean and standard deviation of a list of floats.
+
+    >>> import random
+
+    >>> random.seed(150)
+    >>> numList = [round(100*random.random(), 1) for i in range(25)]
+    >>> problem4_2(numList)    # doctest: +SKIP
+    51.528
+    30.81215290541488
+
+    >>> random.seed(256)
+    >>> numList = [round(100*random.random(), 1) for i in range(25)]
+    >>> problem4_2(numList)    # doctest: +SKIP
+    44.696
+    26.912272293509517
+
+    >>> random.seed(148623437)
+    >>> numList = [round(100*random.random(), 1) for i in range(25)]
+    >>> problem4_2(numList)    # doctest: +SKIP
+    50.424
+    28.889722509340007
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
+
 #%%
 """
 Problem 4_3:
