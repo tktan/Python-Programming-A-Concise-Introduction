@@ -77,6 +77,41 @@ alist = ["a","e","i","o","u","y"]
 blist = ["alpha", "beta", "gamma", "delta", "epsilon", "eta", "theta"]
 
 def problem2_2(my_list):
+    """
+    >>> alist = ["a","e","i","o","u","y"]
+    >>> problem2_2(alist)    # doctest: +SKIP
+    ['a', 'e', 'i', 'o', 'u', 'y']
+    a
+    y
+    ['o', 'u']
+    ['a', 'e', 'i']
+    ['o', 'u', 'y']
+    6
+    ['a', 'e', 'i', 'o', 'u', 'y', 'z']
+
+    >>> blist = ["alpha", "beta", "gamma", "delta", "epsilon", "eta", "theta"]
+    >>> problem2_2(blist)    # doctest: +SKIP
+    ['alpha', 'beta', 'gamma', 'delta', 'epsilon', 'eta', 'theta']
+    alpha
+    theta
+    ['delta', 'epsilon']
+    ['alpha', 'beta', 'gamma']
+    ['delta', 'epsilon', 'eta', 'theta']
+    7
+    ['alpha', 'beta', 'gamma', 'delta', 'epsilon', 'eta', 'theta', 'z']
+
+    >>> clist = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
+    >>> problem2_2(clist)    # doctest: +SKIP
+    ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+    Mercury
+    Neptune
+    ['Mars', 'Jupiter']
+    ['Mercury', 'Venus', 'Earth']
+    ['Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+    8
+    ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'z']
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
 
 
