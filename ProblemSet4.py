@@ -21,7 +21,22 @@ firstline = ["Happy", "families", "are", "all", "alike;", "every", \
               "way.", "Leo Tolstoy", "Anna Karenina"]
 #%%
 def problem4_1(wordlist):
-    """ Takes a word list prints it, sorts it, and prints the sorted list """
+    """
+    Takes a word list prints it, sorts it, and prints the sorted list.
+
+    >>> firstline = ["Happy", "families", "are", "all", "alike;", "every",
+                     "unhappy", "family", "is", "unhappy", "in", "its", "own",
+                     "way.", "Leo Tolstoy", "Anna Karenina"]
+    >>> problem4_1(firstline)    # doctest: +SKIP
+    ['Happy', 'families', 'are', 'all', 'alike;', 'every', 'unhappy', 'family', 'is', 'unhappy', 'in', 'its', 'own', 'way.', 'Leo Tolstoy', 'Anna Karenina']
+    ['alike;', 'all', 'Anna Karenina', 'are', 'every', 'families', 'family', 'Happy', 'in', 'is', 'its', 'Leo Tolstoy', 'own', 'unhappy', 'unhappy', 'way.']
+
+    >>> aTaleOfTwoCities = ['It', 'was', 'the', 'best', 'of', 'times,', 'it', 'was', 'the', 'worst', 'of', 'times,', 'it', 'was', 'the', 'age', 'of', 'wisdom,', 'it', 'was', 'the', 'age', 'of', 'foolishness,', 'it', 'was', 'the', 'epoch', 'of', 'belief,', 'it', 'was', 'the', 'epoch', 'of', 'incredulity,', 'it', 'was', 'the', 'season', 'of', 'Light,', 'it', 'was', 'the', 'season', 'of', 'Darkness,', 'it', 'was', 'the', 'spring', 'of', 'hope,', 'it', 'was', 'the', 'winter', 'of', 'despair,', 'we', 'had', 'everything', 'before', 'us,', 'we', 'had', 'nothing', 'before', 'us,', 'we', 'were', 'all', 'going', 'direct', 'to', 'Heaven,', 'we', 'were', 'all', 'going', 'direct', 'the', 'other', 'way—', 'in', 'short,', 'the', 'period', 'was', 'so', 'far', 'like', 'the', 'present', 'period,', 'that', 'some', 'of', 'its', 'noisiest', 'authorities', 'insisted', 'on', 'its', 'being', 'received,', 'for', 'good', 'or', 'for', 'evil,', 'in', 'the', 'superlative', 'degree', 'of', 'comparison', 'only.']
+    >>> problem4_1(aTaleOfTwoCities)    # doctest: +SKIP
+    ['It', 'was', 'the', 'best', 'of', 'times,', 'it', 'was', 'the', 'worst', 'of', 'times,', 'it', 'was', 'the', 'age', 'of', 'wisdom,', 'it', 'was', 'the', 'age', 'of', 'foolishness,', 'it', 'was', 'the', 'epoch', 'of', 'belief,', 'it', 'was', 'the', 'epoch', 'of', 'incredulity,', 'it', 'was', 'the', 'season', 'of', 'Light,', 'it', 'was', 'the', 'season', 'of', 'Darkness,', 'it', 'was', 'the', 'spring', 'of', 'hope,', 'it', 'was', 'the', 'winter', 'of', 'despair,', 'we', 'had', 'everything', 'before', 'us,', 'we', 'had', 'nothing', 'before', 'us,', 'we', 'were', 'all', 'going', 'direct', 'to', 'Heaven,', 'we', 'were', 'all', 'going', 'direct', 'the', 'other', 'way—', 'in', 'short,', 'the', 'period', 'was', 'so', 'far', 'like', 'the', 'present', 'period,', 'that', 'some', 'of', 'its', 'noisiest', 'authorities', 'insisted', 'on', 'its', 'being', 'received,', 'for', 'good', 'or', 'for', 'evil,', 'in', 'the', 'superlative', 'degree', 'of', 'comparison', 'only.']
+    ['age', 'age', 'all', 'all', 'authorities', 'before', 'before', 'being', 'belief,', 'best', 'comparison', 'Darkness,', 'degree', 'despair,', 'direct', 'direct', 'epoch', 'epoch', 'everything', 'evil,', 'far', 'foolishness,', 'for', 'for', 'going', 'going', 'good', 'had', 'had', 'Heaven,', 'hope,', 'in', 'in', 'incredulity,', 'insisted', 'It', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'its', 'its', 'Light,', 'like', 'noisiest', 'nothing', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'on', 'only.', 'or', 'other', 'period', 'period,', 'present', 'received,', 'season', 'season', 'short,', 'so', 'some', 'spring', 'superlative', 'that', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'times,', 'times,', 'to', 'us,', 'us,', 'was', 'was', 'was', 'was', 'was', 'was', 'was', 'was', 'was', 'was', 'was', 'way—', 'we', 'we', 'we', 'we', 'were', 'were', 'winter', 'wisdom,', 'worst']
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
 
 #%%
