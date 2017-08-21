@@ -103,8 +103,20 @@ toothbrush               $  2.60
 """
 #%%
 def problem4_3(product, cost):
-    """ Prints the product name in a space of 25 characters, left-justified
-        and the price in a space of 6 characters, right-justified"""
+    """
+    Prints the product name in a space of 25 characters, left-justified
+    and the price in a space of 6 characters, right-justified
+
+    >>> problem4_3("toothbrush", 2.6)    # doctest: +SKIP
+    toothbrush               $  2.60
+
+    >>> problem4_3("fidget spinner", 5.95)    # doctest: +SKIP
+    fidget spinner           $  5.95
+
+    >>> problem4_3("jenga", 7.89)    # doctest: +SKIP
+    jenga                    $  7.89
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
 
 
