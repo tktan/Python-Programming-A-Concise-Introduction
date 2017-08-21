@@ -174,6 +174,37 @@ newEngland = ["Maine","New Hampshire","Vermont", "Rhode Island",
 "Massachusetts","Connecticut"]
 
 def problem2_3(ne):
+    """
+    >>> newEngland = ["Maine","New Hampshire","Vermont", "Rhode Island", "Massachusetts","Connecticut"]
+    >>> problem2_3(newEngland)    # doctest: +SKIP
+    Maine has 5 letters.
+    New Hampshire has 13 letters.
+    Vermont has 7 letters.
+    Rhode Island has 12 letters.
+    Massachusetts has 13 letters.
+    Connecticut has 11 letters.
+
+    >>> daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    >>> problem2_3(daysOfTheWeek)    # doctest: +SKIP
+    Sunday has 6 letters.
+    Monday has 6 letters.
+    Tuesday has 7 letters.
+    Wednesday has 9 letters.
+    Thursday has 8 letters.
+    Friday has 6 letters.
+    Saturday has 8 letters.
+
+    >>> alkaliMetals = ["Hydrogen", "Lithium", "Sodium", "Potassium", "Rubidium", "Caesium", "Francium"]
+    >>> problem2_3(alkaliMetals)    # doctest: +SKIP
+    Hydrogen has 8 letters.
+    Lithium has 7 letters.
+    Sodium has 6 letters.
+    Potassium has 9 letters.
+    Rubidium has 8 letters.
+    Caesium has 7 letters.
+    Francium has 8 letters.
+    """
+
     pass # replace this pass (a do-nothing) statement with your code
 
 
