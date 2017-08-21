@@ -224,7 +224,13 @@ list of random numbers. Print out the list (in list form).
 import random
 
 def problem2_4():
-    """ Make a list of 10 random reals between 30 and 35 """
+    """
+    Make a list of 10 random reals between 30 and 35
+
+    >>> problem2_4()    # doctest: +SKIP
+    [34.54884618961936, 31.470395203793395, 32.297169396656095, 30.681793552717807, 34.97530360173135, 30.773219981037737, 33.36969776732032, 32.990127772708405, 33.57311858494461, 32.052629620057274]
+    """
+
     random.seed()
     pass # replace this pass (a do-nothing) statement with your code
 
