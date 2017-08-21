@@ -316,7 +316,35 @@ the two dice 100 times. Print the outcomes one outcome per line.
 import random
 
 def problem2_6():
-    """ Simulates rolling 2 dice 100 times """
+    """
+    Simulates rolling 2 dice 100 times.
+
+    >>> problem2_6()    # doctest: +SKIP
+    4
+    7
+    7
+    10
+    4
+    7
+    9
+    5
+    4
+    5
+    ...
+    ...
+    ...
+    9
+    8
+    9
+    7
+    5
+    5
+    8
+    6
+    10
+    4
+    """
+
     # Setting the seed makes the random numbers always the same
     # This is to make the auto-grader's job easier.
     random.seed(431)  # don't remove when you submit for grading
