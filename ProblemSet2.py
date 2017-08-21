@@ -282,7 +282,22 @@ Problem 2_5:
 import random
 
 def problem2_5():
-    """ Simulates rolling a die 10 times."""
+    """
+    Simulates rolling a die 10 times.
+
+    >>> problem2_5()    # doctest: +SKIP
+    5
+    4
+    4
+    1
+    5
+    4
+    6
+    2
+    4
+    3
+    """
+
     # Setting the seed makes the random numbers always the same
     # This is to make the auto-grader's job easier.
     random.seed(171)  # don't remove when you submit for grading
